@@ -1,0 +1,6 @@
+1"nick_min_chars"3
+2"nick_max_chars"35
+3"post_max_chars"400
+4"posts_refresh_time"1,5
+5"posts_limit"10
+6"time_anti_flood"3

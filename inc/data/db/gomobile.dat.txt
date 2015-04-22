@@ -1,0 +1,2 @@
+1"phone"template.html
+2"tablet"template.html

@@ -1,0 +1,6 @@
+id:auto_increment
+content
+date_added
+author_name
+author_ip
+author_agent

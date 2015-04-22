@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+	<title>{{site.title}} :: {{page.title}}</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="{{theme.path}}/style.css" />
+	<meta name="description" content="{{site.description}}" />
+	<meta name="keywords" content="{{site.keywords}}" /> 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+<!-- Begin: #color_line -->
+<div id="color_line">
+	<div class="red"></div>
+	<div class="orange"></div>
+	<div class="violet"></div>
+	<div class="green"></div>
+	<div class="blue"></div>
+</div>
+<!-- End: #color_line -->
+
+<!-- Begin: #wrapper -->
+<div id="wrapper">
+	<!-- Begin: #header -->
+	<div id="header">
+		<div class="wrap">
+			<h1>{{site.title}}</h1>
+		</div>
+	</div>
+	<!-- End: #header -->
+
+	<div class="wrap">
+		<!-- Begin: #menu -->
+		<div id="menu">
+			<ul>
+			{{menu.top}}
+			{{ap.userpanel}} 
+			</ul>
+		</div>
+		<!-- End: #menu-->
+		<!-- Begin: #content -->
+		<div id="content">
+			<h1>{{page.title}} <span class="icon orange">Z</span></h1>
+			{{page.content}}
+		</div>
+		<!-- End: #content -->
+
+		<!-- Begin: #footer -->
+		<div id="footer">
+			<span class="left">{{site.footer}} // Design by <a href="http://klocus.pl">Klocek</a> // {{lcms.footer}}</span> <span class="right">{{site.lang}}</span>
+		</div>
+		<!-- End: #footer -->
+	</div>
+</div>
+<!-- End: #wrapper -->
+</body>
+</html>

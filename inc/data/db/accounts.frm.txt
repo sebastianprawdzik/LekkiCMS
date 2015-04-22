@@ -1,0 +1,12 @@
+id:auto_increment
+name
+password
+email
+regdate
+from
+website
+range
+lastlogoutdate
+lastlogouttime
+online
+field

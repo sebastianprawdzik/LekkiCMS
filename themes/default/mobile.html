@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+	<title>{{site.title}} :: {{page.title}}</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="{{theme.path}}/mobile.css" />
+	<meta name="description" content="{{site.description}}" />
+	<meta name="keywords" content="{{site.keywords}}" /> 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<h1>{{site.title}}</h1>
+		<div id="menu">
+			<ul>
+			{{menu.top}}
+			</ul>
+			<div style="clear:both;"></div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="content">
+		<h1>{{page.title}}</h1>
+		{{page.content}}
+	</div>
+	<div class="sidebar">
+		<h1>Menu</h1>
+		<ul>
+		{{menu.side}}
+		</ul>
+	</div>
+	<div class="sidebar">
+		<h1>Partnerzy</h1>
+		<p>Miejsce na Twoją reklamę</p>
+	</div>
+	<div class="sidebar">
+		<h1>Język strony</h1>
+		<p><div id="langselect">{{site.lang}}</div><div style="clear:both;"></div></p>
+	</div>
+	<div style="clear: both;"></div>
+	<div id="footer">
+		{{site.footer}} | {{lcms.footer}}
+	</div>
+</div>
+</body>
+</html>
